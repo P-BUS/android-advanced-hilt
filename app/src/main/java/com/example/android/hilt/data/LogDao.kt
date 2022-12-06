@@ -19,10 +19,14 @@ package com.example.android.hilt.data
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
+import dagger.Module
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 
 /**
  * Data access object to query the database.
  */
+
 @Dao
 interface LogDao {
 
